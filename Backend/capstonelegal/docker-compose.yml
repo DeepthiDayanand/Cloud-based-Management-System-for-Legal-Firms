@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+ app:
+    image: capstonejudgesmanagement-sb:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+     SPRING_DATASOURCE_URL: jdbc:postgresql://127.0.0.1:5432/capstonelegaldevdb
+     SPRING_DATASOURCE_USERNAME: postgres
+     SPRING_DATASOURCE_PASSWORD: kaviraj

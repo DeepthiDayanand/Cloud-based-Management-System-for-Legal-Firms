@@ -1,0 +1,1119 @@
+2023.11.28 12:03:17.305 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 49478 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:03:17.311 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:03:20.672 [INFO] com.capstonelegal.Main: Started Main in 3.562 seconds (JVM running for 3.883)
+2023.11.28 12:03:35.122 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:03:35.144 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:09:01.909 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 49941 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:09:01.911 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:09:05.501 [INFO] com.capstonelegal.Main: Started Main in 3.799 seconds (JVM running for 4.101)
+2023.11.28 12:09:17.556 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:09:17.576 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:09:17.652 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR: column "legal_case_document" is of type bytea but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 182
+2023.11.28 12:09:17.675 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ERROR: column "legal_case_document" is of type bytea but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 182
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3908)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.legalcase.service.LegalCaseService$$EnhancerBySpringCGLIB$$ee6b58e6.createLegalCase(<generated>)
+	at com.capstonelegal.legalcase.controller.LegalCaseController.createLegalCase(LegalCaseController.java:108)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.28 12:12:00.805 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 50161 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:12:00.806 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:12:04.103 [INFO] com.capstonelegal.Main: Started Main in 3.482 seconds (JVM running for 3.817)
+2023.11.28 12:12:14.005 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 50179 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:12:14.006 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:12:17.163 [INFO] com.capstonelegal.Main: Started Main in 3.33 seconds (JVM running for 3.626)
+2023.11.28 12:12:24.394 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:12:24.417 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:12:24.476 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR: column "legal_case_document" is of type bytea but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 182
+2023.11.28 12:12:24.492 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ERROR: column "legal_case_document" is of type bytea but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 182
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3908)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.legalcase.service.LegalCaseService$$EnhancerBySpringCGLIB$$ee6b58e6.createLegalCase(<generated>)
+	at com.capstonelegal.legalcase.controller.LegalCaseController.createLegalCase(LegalCaseController.java:108)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.28 12:14:43.225 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 50391 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:14:43.227 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:14:46.439 [INFO] com.capstonelegal.Main: Started Main in 3.402 seconds (JVM running for 3.678)
+2023.11.28 12:14:50.017 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:14:50.036 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:16:11.816 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [array type, component type: [simple type, class byte]]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `byte[]`: no String-argument constructor/factory method to deserialize from String value ('DEADBEEF')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 26] (through reference chain: com.capstonelegal.legalcase.model.dto.LegalCaseDTO["legalCaseDocument"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `byte[]`: no String-argument constructor/factory method to deserialize from String value ('DEADBEEF')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 26] (through reference chain: com.capstonelegal.legalcase.model.dto.LegalCaseDTO["legalCaseDocument"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1904)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1344)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers.handleNonArray(PrimitiveArrayDeserializers.java:218)
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:491)
+	at com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers$ByteDeser.deserialize(PrimitiveArrayDeserializers.java:432)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:391)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:184)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.28 12:17:18.049 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:17:18.070 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:17:27.473 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 12:17:27.498 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 12:17:27.552 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 12:46:56.028 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 52877 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:46:56.030 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:46:57.556 [ERROR] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean: Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: com.capstonelegal.legalcase.model.entities.LegalCase column: legal_case_document (should be mapped with insert="false" update="false")
+2023.11.28 12:46:57.580 [ERROR] org.springframework.boot.SpringApplication: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: com.capstonelegal.legalcase.model.entities.LegalCase column: legal_case_document (should be mapped with insert="false" update="false")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.capstonelegal.Main.main(Main.java:27)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: com.capstonelegal.legalcase.model.entities.LegalCase column: legal_case_document (should be mapped with insert="false" update="false")
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Repeated column in mapping for entity: com.capstonelegal.legalcase.model.entities.LegalCase column: legal_case_document (should be mapped with insert="false" update="false")
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:895)
+	at org.hibernate.mapping.PersistentClass.checkPropertyColumnDuplication(PersistentClass.java:913)
+	at org.hibernate.mapping.PersistentClass.checkColumnDuplication(PersistentClass.java:935)
+	at org.hibernate.mapping.PersistentClass.validate(PersistentClass.java:637)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:267)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:359)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023.11.28 12:49:19.976 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 53067 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 12:49:19.978 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 12:49:23.172 [INFO] com.capstonelegal.Main: Started Main in 3.419 seconds (JVM running for 3.745)
+2023.11.28 12:49:30.315 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 12:49:30.335 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 12:49:30.401 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 12:50:24.875 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:50:24.892 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:50:47.110 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 12:50:47.126 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 12:50:50.692 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 12:50:50.697 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 12:50:50.739 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 13:55:20.377 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 56888 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 13:55:20.380 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 13:55:24.778 [INFO] com.capstonelegal.Main: Started Main in 4.772 seconds (JVM running for 5.25)
+2023.11.28 13:55:34.019 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 13:55:34.034 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 13:55:34.101 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 13:55:55.608 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 13:55:55.626 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 13:55:55.664 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 13:56:17.236 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 13:56:17.255 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 13:56:24.376 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 13:56:24.392 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 13:56:26.825 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 13:56:26.832 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 13:56:26.859 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 13:57:22.346 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 13:57:22.367 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 13:57:22.402 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:20:05.983 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:20:06.030 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:20:06.091 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:21:56.814 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:21:56.861 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:21:56.930 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:21:56.939 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:21:56.940 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:21:56.966 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:22:07.847 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 5d28de86-8ee0-4386-88db-bd64d5f824db
+2023.11.28 15:22:07.865 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 5d28de86-8ee0-4386-88db-bd64d5f824db
+2023.11.28 15:22:09.575 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 8f283317-6960-4ade-a380-dca8296fb1fc
+2023.11.28 15:22:09.580 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 8f283317-6960-4ade-a380-dca8296fb1fc
+2023.11.28 15:22:10.026 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: a53e23c5-8238-4a34-aa74-9a83c7d35c83
+2023.11.28 15:22:10.026 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: a53e23c5-8238-4a34-aa74-9a83c7d35c83
+2023.11.28 15:22:10.258 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 6d1e707c-0f88-43e3-ad51-7cee87df0a88
+2023.11.28 15:22:10.259 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 6d1e707c-0f88-43e3-ad51-7cee87df0a88
+2023.11.28 15:22:14.840 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 9b1ad835-4739-47be-9945-f1a614f48075
+2023.11.28 15:22:14.861 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 9b1ad835-4739-47be-9945-f1a614f48075
+2023.11.28 15:22:16.659 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: ea7e6c1a-9a5d-4d91-8ca6-b8df60c606fa
+2023.11.28 15:22:16.665 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: ea7e6c1a-9a5d-4d91-8ca6-b8df60c606fa
+2023.11.28 15:22:17.214 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 7f23d63b-48ed-4172-9b5a-3e033b6ce30e
+2023.11.28 15:22:17.220 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 7f23d63b-48ed-4172-9b5a-3e033b6ce30e
+2023.11.28 15:22:34.904 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:22:34.931 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:22:34.965 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:22:34.973 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:22:34.980 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:22:34.996 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:24:17.970 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 15:24:17.998 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 15:24:28.667 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:24:28.690 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:24:28.719 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:24:28.727 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:24:28.728 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:24:28.743 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:24:46.938 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:24:46.979 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:24:47.010 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:30:44.181 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:30:44.246 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:30:44.312 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:33:58.132 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 15:33:58.172 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 15:34:06.308 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:34:06.336 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:34:06.440 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:38:41.200 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:38:41.232 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:38:41.330 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:38:41.336 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:38:41.337 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:38:41.378 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:42:01.175 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 15:42:01.197 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 15:42:14.407 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:42:14.421 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:42:14.494 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:42:14.511 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:42:14.511 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:42:14.565 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:45:32.758 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:45:32.779 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:45:32.938 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:47:14.719 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:47:14.754 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:47:14.828 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:47:45.695 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:47:45.714 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:47:45.809 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:49:42.724 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:49:42.790 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:49:42.846 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:49:46.321 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:49:46.340 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:49:46.422 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:49:46.430 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:49:46.430 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:49:46.485 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:50:57.846 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:50:57.868 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:50:58.012 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:50:58.019 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:50:58.020 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:50:58.073 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:51:32.796 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:51:32.823 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:51:32.950 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 15:51:32.956 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 15:51:32.957 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 15:51:33.033 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 16:08:39.501 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 16:08:39.521 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 16:08:39.615 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 16:09:11.815 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 16:09:11.830 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 16:09:11.967 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:22:00.880 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:22:27.428 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-MacBook-Air.local with PID 72033 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 17:22:27.430 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 17:22:39.438 [ERROR] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:466)
+	at org.postgresql.Driver.connect(Driver.java:265)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:75)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:147)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:124)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.capstonelegal.Main.main(Main.java:27)
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:238)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:100)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:215)
+	... 36 common frames omitted
+2023.11.28 17:22:39.496 [ERROR] org.springframework.boot.SpringApplication: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: The connection attempt failed.
+-------------------------------------------------------------------------
+SQL State  : 08001
+Error Code : 0
+Message    : The connection attempt failed.
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.capstonelegal.Main.main(Main.java:27)
+Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: The connection attempt failed.
+-------------------------------------------------------------------------
+SQL State  : 08001
+Error Code : 0
+Message    : The connection attempt failed.
+
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:60)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:75)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:147)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:124)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 18 common frames omitted
+Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:466)
+	at org.postgresql.Driver.connect(Driver.java:265)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	... 24 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:238)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:100)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:215)
+	... 36 common frames omitted
+2023.11.28 17:24:31.554 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-MacBook-Air.local with PID 72281 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 17:24:31.556 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 17:24:35.193 [INFO] com.capstonelegal.Main: Started Main in 3.948 seconds (JVM running for 4.378)
+2023.11.28 17:24:42.283 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:24:42.312 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:24:42.454 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:24:42.480 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:24:42.482 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:24:42.582 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:32:26.530 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:32:26.566 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:32:26.652 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:32:59.455 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:32:59.492 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:32:59.593 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:32:59.611 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:32:59.611 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:32:59.674 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:33:25.412 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:33:25.426 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:33:25.506 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:33:25.512 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:33:25.521 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:33:25.576 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:34:06.986 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:34:07.016 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:34:07.079 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:34:07.083 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:34:07.083 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:34:07.114 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:34:10.823 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 68cf9015-a2b9-4531-9499-234dfc490593
+2023.11.28 17:34:10.827 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 68cf9015-a2b9-4531-9499-234dfc490593
+2023.11.28 17:34:12.258 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 4a5789b4-d011-40c6-8e7a-664547647a28
+2023.11.28 17:34:12.266 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 4a5789b4-d011-40c6-8e7a-664547647a28
+2023.11.28 17:34:13.651 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 3f5395d9-4ca6-48cd-917f-88ada5378cdb
+2023.11.28 17:34:13.656 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 3f5395d9-4ca6-48cd-917f-88ada5378cdb
+2023.11.28 17:34:14.592 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 95a3d858-28e4-45f3-9d05-03bc8f2f008c
+2023.11.28 17:34:14.598 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 95a3d858-28e4-45f3-9d05-03bc8f2f008c
+2023.11.28 17:34:15.318 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: a73b7ace-3e7c-4b06-a287-684cfe3c74a7
+2023.11.28 17:34:15.324 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: a73b7ace-3e7c-4b06-a287-684cfe3c74a7
+2023.11.28 17:36:19.620 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 17:36:19.648 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 17:36:27.614 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:36:27.632 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:36:27.911 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:36:27.922 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:36:27.926 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:36:28.552 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:38:57.537 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 17:38:57.554 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 17:43:20.865 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 17:43:20.883 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 17:43:24.672 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:43:24.682 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:43:25.488 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:43:25.493 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:43:25.497 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:43:25.921 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:44:19.086 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:44:19.104 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:44:19.612 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:44:41.478 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:44:41.499 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:44:42.081 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:46:34.578 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: c37b5247-a9fd-411b-b557-45bda8a9ce30
+2023.11.28 17:46:34.593 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: c37b5247-a9fd-411b-b557-45bda8a9ce30
+2023.11.28 17:53:50.941 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:53:50.985 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:53:51.369 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 17:53:51.382 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 17:53:51.388 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 17:53:51.889 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:02:57.326 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:02:57.346 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:02:57.972 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:02:57.977 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:02:57.982 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:02:58.707 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:03:18.943 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:03:18.953 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:03:19.581 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:03:19.585 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:03:19.592 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:03:20.055 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:04:14.283 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:04:14.303 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:04:14.909 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:04:55.273 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:04:55.283 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:04:55.943 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:05:35.273 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:05:35.300 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:05:36.012 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:06:11.284 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:06:11.307 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:06:11.787 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:06:25.153 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:06:25.163 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:06:25.433 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:06:25.443 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:06:25.450 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:06:25.916 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:07:14.320 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:07:14.347 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:07:14.684 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:08:02.274 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:08:02.296 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:08:02.680 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:08:23.266 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:08:23.281 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:08:23.706 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:09:51.052 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:09:51.075 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:09:51.430 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:09:51.435 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:09:51.439 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:09:51.926 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:17:44.302 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:17:44.331 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:17:44.796 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:43:06.623 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:43:06.645 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:43:07.656 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:43:07.667 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:43:07.682 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:43:08.514 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:43:47.394 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: a18c448a-9e38-4e72-b3c7-80826bcea9b4
+2023.11.28 18:43:47.413 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: a18c448a-9e38-4e72-b3c7-80826bcea9b4
+2023.11.28 18:46:35.694 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:46:35.723 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:46:36.297 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:46:36.303 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:46:36.306 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:46:36.864 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:46:38.492 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: dff6dc8a-7ca7-4da6-b9e4-af4cb22293c9
+2023.11.28 18:46:38.502 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: dff6dc8a-7ca7-4da6-b9e4-af4cb22293c9
+2023.11.28 18:46:39.215 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: b4b3d166-02dc-4d0a-b2b0-4b983ebdb16c
+2023.11.28 18:46:39.220 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: b4b3d166-02dc-4d0a-b2b0-4b983ebdb16c
+2023.11.28 18:46:39.649 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: a18c448a-9e38-4e72-b3c7-80826bcea9b4
+2023.11.28 18:46:39.653 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: a18c448a-9e38-4e72-b3c7-80826bcea9b4
+2023.11.28 18:46:40.473 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 495a265a-7e32-4009-a1c7-6eb295c372f4
+2023.11.28 18:46:40.479 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 495a265a-7e32-4009-a1c7-6eb295c372f4
+2023.11.28 18:47:06.421 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 18:47:06.440 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 18:47:17.043 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:47:17.074 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:47:17.105 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:47:17.113 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:47:17.119 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:47:17.142 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:54:50.596 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 18:54:50.618 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 18:54:55.890 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:54:55.903 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:54:55.928 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 18:54:55.934 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 18:54:55.934 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 18:54:55.955 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:05:25.322 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:05:25.347 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:05:25.383 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:05:25.390 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:05:25.396 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:05:25.431 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:06:46.942 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:06:46.955 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:06:46.991 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:06:47.009 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:06:47.013 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:06:47.038 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:18:17.758 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:18:17.779 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:18:17.842 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:19:35.218 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:19:35.235 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:19:35.272 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:19:35.280 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:19:35.291 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:19:35.313 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:19:36.878 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 02139c2f-535a-40c9-8628-f46f3afe8014
+2023.11.28 19:19:36.882 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 02139c2f-535a-40c9-8628-f46f3afe8014
+2023.11.28 19:19:41.000 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:19:41.022 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:19:41.049 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:30:55.228 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 19:30:55.251 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 19:33:17.606 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 19:33:17.622 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 19:35:35.661 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 19:35:35.700 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 19:35:38.544 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:35:38.550 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:35:38.596 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:35:38.610 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:35:38.611 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:35:38.631 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:37:52.887 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:37:52.904 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:37:52.950 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:37:52.957 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:37:52.958 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:37:52.975 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:39:33.126 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:39:33.147 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:39:33.202 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:39:33.210 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:39:33.211 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:39:33.233 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:40:26.381 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.28 19:40:26.440 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.28 19:40:26.545 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.28 19:40:26.564 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.28 19:40:26.564 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.28 19:40:26.582 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.28 19:41:41.569 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:41:41.605 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:41:41.637 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 19:41:41.647 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 19:41:41.647 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 19:41:41.671 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 20:15:31.308 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 20:15:31.355 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 20:15:31.517 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 20:15:40.241 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:15:40.255 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:15:40.374 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR: null value in column "legal_case_title" of relation "legal_case" violates not-null constraint
+  Detail: Failing row contains (d3903123-710c-4331-be48-9496f3bf5ada, null, null, null, 2e5ececb-ed13-4325-a9e3-5bd426ea449e, null, 2023-11-23).
+2023.11.28 20:15:40.408 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [legal_case_title" of relation "legal_case]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ERROR: null value in column "legal_case_title" of relation "legal_case" violates not-null constraint
+  Detail: Failing row contains (d3903123-710c-4331-be48-9496f3bf5ada, null, null, null, 2e5ececb-ed13-4325-a9e3-5bd426ea449e, null, 2023-11-23).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3571)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3438)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3852)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:201)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.legalcase.service.LegalCaseService$$EnhancerBySpringCGLIB$$ee6b58e6.updateLegalCase(<generated>)
+	at com.capstonelegal.legalcase.controller.LegalCaseController.updateLegalCase(LegalCaseController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.28 20:16:12.190 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 20:16:12.202 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 20:16:12.247 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 20:41:40.044 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: {{updateLegalCaseId}}
+2023.11.28 20:41:40.071 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: {{updateLegalCaseId}}
+2023.11.28 20:42:48.376 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 68cf9015-a2b9-4531-9499-234dfc490593
+2023.11.28 20:42:48.388 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 68cf9015-a2b9-4531-9499-234dfc490593
+2023.11.28 20:43:29.476 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:43:29.485 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:43:29.533 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR: null value in column "legal_case_title" of relation "legal_case" violates not-null constraint
+  Detail: Failing row contains (d3903123-710c-4331-be48-9496f3bf5ada, null, null, null, 2e5ececb-ed13-4325-a9e3-5bd426ea449e, null, 2023-01-01).
+2023.11.28 20:43:29.540 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [legal_case_title" of relation "legal_case]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ERROR: null value in column "legal_case_title" of relation "legal_case" violates not-null constraint
+  Detail: Failing row contains (d3903123-710c-4331-be48-9496f3bf5ada, null, null, null, 2e5ececb-ed13-4325-a9e3-5bd426ea449e, null, 2023-01-01).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3571)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3438)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3852)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:201)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.legalcase.service.LegalCaseService$$EnhancerBySpringCGLIB$$ee6b58e6.updateLegalCase(<generated>)
+	at com.capstonelegal.legalcase.controller.LegalCaseController.updateLegalCase(LegalCaseController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.28 20:43:54.117 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-MacBook-Air.local with PID 89946 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.28 20:43:54.118 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.28 20:43:57.429 [INFO] com.capstonelegal.Main: Started Main in 3.543 seconds (JVM running for 3.909)
+2023.11.28 20:44:01.295 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:44:01.320 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:44:01.403 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR: null value in column "legal_case_title" of relation "legal_case" violates not-null constraint
+  Detail: Failing row contains (d3903123-710c-4331-be48-9496f3bf5ada, null, null, null, 2e5ececb-ed13-4325-a9e3-5bd426ea449e, null, 2023-01-01).
+2023.11.28 20:44:01.408 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [legal_case_title" of relation "legal_case]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ERROR: null value in column "legal_case_title" of relation "legal_case" violates not-null constraint
+  Detail: Failing row contains (d3903123-710c-4331-be48-9496f3bf5ada, null, null, null, 2e5ececb-ed13-4325-a9e3-5bd426ea449e, null, 2023-01-01).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3571)
+	at org.hibernate.persister.entity.AbstractEntityPersister.updateOrInsert(AbstractEntityPersister.java:3438)
+	at org.hibernate.persister.entity.AbstractEntityPersister.update(AbstractEntityPersister.java:3852)
+	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:201)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.legalcase.service.LegalCaseService$$EnhancerBySpringCGLIB$$ee6b58e6.updateLegalCase(<generated>)
+	at com.capstonelegal.legalcase.controller.LegalCaseController.updateLegalCase(LegalCaseController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.28 20:44:38.047 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 20:44:38.054 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.28 21:04:00.802 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:04:00.848 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:04:01.039 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:04:50.619 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:04:50.654 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:04:50.688 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:10:09.630 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:10:09.654 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:10:09.717 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:14:43.345 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 21:14:43.369 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 21:14:48.886 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:14:48.892 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:14:48.967 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:14:48.977 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:14:48.978 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:14:49.031 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:14:58.236 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:14:58.254 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:14:58.309 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:14:58.319 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:14:58.319 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:14:58.344 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:18:25.650 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:18:25.685 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:18:25.735 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:21:49.696 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:21:49.758 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:21:50.056 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:22:06.489 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 6c736de2-0de2-4dad-a38e-7e3f22c2fbac
+2023.11.28 21:22:06.515 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 6c736de2-0de2-4dad-a38e-7e3f22c2fbac
+2023.11.28 21:22:06.735 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:22:06.735 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:22:06.757 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:23:46.179 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.28 21:23:46.215 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.28 21:23:49.315 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:23:49.319 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:23:49.363 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:23:49.371 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:23:49.372 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:23:49.430 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:23:53.982 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:23:53.993 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:23:54.041 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:23:54.053 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:23:54.055 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:23:54.120 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:24:46.168 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 6c736de2-0de2-4dad-a38e-7e3f22c2fbac
+2023.11.28 21:24:46.191 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 6c736de2-0de2-4dad-a38e-7e3f22c2fbac
+2023.11.28 21:24:46.305 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:24:46.306 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:24:46.331 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:27:05.557 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: e76adee5-a5c9-47f7-a6e8-efac6935af5a	
+2023.11.28 21:27:05.570 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: e76adee5-a5c9-47f7-a6e8-efac6935af5a	
+2023.11.28 21:27:36.618 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:27:36.638 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:27:36.714 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.28 21:27:36.722 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.28 21:27:36.723 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.28 21:27:36.748 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases

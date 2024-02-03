@@ -1,0 +1,578 @@
+2023.08.19 15:37:41.922 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 23492 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 15:37:41.925 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 15:37:55.064 [ERROR] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:466)
+	at org.postgresql.Driver.connect(Driver.java:265)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:75)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:147)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:124)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.capstonelegal.Main.main(Main.java:8)
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:238)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:100)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:215)
+	... 36 common frames omitted
+2023.08.19 15:37:55.120 [ERROR] org.springframework.boot.SpringApplication: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: The connection attempt failed.
+-------------------------------------------------------------------------
+SQL State  : 08001
+Error Code : 0
+Message    : The connection attempt failed.
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.capstonelegal.Main.main(Main.java:8)
+Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: The connection attempt failed.
+-------------------------------------------------------------------------
+SQL State  : 08001
+Error Code : 0
+Message    : The connection attempt failed.
+
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:60)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:75)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:147)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:124)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 18 common frames omitted
+Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:466)
+	at org.postgresql.Driver.connect(Driver.java:265)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	... 24 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:238)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:100)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:215)
+	... 36 common frames omitted
+2023.08.19 15:39:16.666 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 27420 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 15:39:16.668 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 15:39:21.713 [INFO] com.capstonelegal.Main: Started Main in 5.372 seconds (JVM running for 6.163)
+2023.08.19 15:39:37.833 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch all countries - page: 0, size: 10
+2023.08.19 15:39:37.837 [INFO] com.capstonelegal.common.service.CountryService: Fetching all countries - page: 0, size: 10
+2023.08.19 15:39:37.894 [INFO] com.capstonelegal.common.controller.CountryController: Responding with 10 countries out of total 246 countries
+2023.08.19 15:41:27.236 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch all countries - page: 0, size: 10
+2023.08.19 15:41:27.236 [INFO] com.capstonelegal.common.service.CountryService: Fetching all countries - page: 0, size: 10
+2023.08.19 15:41:27.242 [INFO] com.capstonelegal.common.controller.CountryController: Responding with 10 countries out of total 246 countries
+2023.08.19 15:42:20.899 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch country with ID: 14aeb5ee-f749-4588-b611-a35289176a49
+2023.08.19 15:42:20.900 [INFO] com.capstonelegal.common.service.CountryService: Fetching country by ID: 14aeb5ee-f749-4588-b611-a35289176a49
+2023.08.19 15:47:51.572 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch countries by name: India, page: 0, size: 10
+2023.08.19 15:47:51.575 [INFO] com.capstonelegal.common.service.CountryService: Fetching countries by name filter: India, page: 0, size: 10
+2023.08.19 15:49:00.043 [INFO] com.capstonelegal.common.controller.CountryController: Request received to create new country with name: New Country
+2023.08.19 15:49:00.043 [INFO] com.capstonelegal.common.service.CountryService: Creating or updating country with ID: a698cbbf-a539-40f0-a607-9b0a6f3d95d8
+2023.08.19 15:50:08.245 [INFO] com.capstonelegal.common.controller.CountryController: Request received to create new country with name: New Country 1
+2023.08.19 15:50:08.245 [INFO] com.capstonelegal.common.service.CountryService: Creating or updating country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:52:22.014 [INFO] com.capstonelegal.common.controller.CountryController: Request received to update country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:52:22.014 [INFO] com.capstonelegal.common.service.CountryService: Creating or updating country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:54:08.013 [INFO] com.capstonelegal.common.controller.CountryController: Request received to delete country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:54:08.013 [INFO] com.capstonelegal.common.service.CountryService: Deleting country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:57:45.536 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch all countries - page: 0, size: 10
+2023.08.19 15:57:45.536 [INFO] com.capstonelegal.common.service.CountryService: Fetching all countries - page: 0, size: 10
+2023.08.19 15:57:45.546 [INFO] com.capstonelegal.common.controller.CountryController: Responding with 10 countries out of total 247 countries
+2023.08.19 15:57:45.637 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch country with ID: 14aeb5ee-f749-4588-b611-a35289176a49
+2023.08.19 15:57:45.637 [INFO] com.capstonelegal.common.service.CountryService: Fetching country by ID: 14aeb5ee-f749-4588-b611-a35289176a49
+2023.08.19 15:57:45.719 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch countries by name: India, page: 0, size: 10
+2023.08.19 15:57:45.720 [INFO] com.capstonelegal.common.service.CountryService: Fetching countries by name filter: India, page: 0, size: 10
+2023.08.19 15:57:45.793 [INFO] com.capstonelegal.common.controller.CountryController: Request received to create new country with name: New Country 1
+2023.08.19 15:57:45.793 [INFO] com.capstonelegal.common.service.CountryService: Creating or updating country with ID: 5e4aea60-c2a0-40e1-9981-cd8cf86b7bd9
+2023.08.19 15:57:45.871 [INFO] com.capstonelegal.common.controller.CountryController: Request received to update country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:57:45.872 [INFO] com.capstonelegal.common.service.CountryService: Creating or updating country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:57:45.948 [INFO] com.capstonelegal.common.controller.CountryController: Request received to delete country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 15:57:45.948 [INFO] com.capstonelegal.common.service.CountryService: Deleting country with ID: aa881cb2-5dba-4f4c-9c6b-f393bff6679f
+2023.08.19 19:13:46.652 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 2328 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 19:13:46.655 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 19:13:51.860 [INFO] com.capstonelegal.Main: Started Main in 5.595 seconds (JVM running for 6.383)
+2023.08.19 19:14:12.348 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.08.19 19:14:12.359 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.08.19 20:12:44.311 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 27188 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 20:12:44.313 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 20:12:49.578 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.08.19 20:12:49.591 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.08.19 20:12:49.647 [INFO] com.capstonelegal.Main: Started Main in 5.638 seconds (JVM running for 6.286)
+2023.08.19 20:16:00.155 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch all countries - page: 0, size: 10
+2023.08.19 20:16:00.157 [INFO] com.capstonelegal.common.service.CountryService: Fetching all countries - page: 0, size: 10
+2023.08.19 20:16:00.172 [INFO] com.capstonelegal.common.controller.CountryController: Responding with 10 countries out of total 248 countries
+2023.08.19 20:19:31.407 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 21704 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 20:19:31.409 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 20:19:36.473 [INFO] com.capstonelegal.Main: Started Main in 5.374 seconds (JVM running for 6.034)
+2023.08.19 20:19:41.223 [INFO] com.capstonelegal.common.controller.CountryController: Request received to fetch all countries - page: 0, size: 10
+2023.08.19 20:19:41.227 [INFO] com.capstonelegal.common.service.CountryService: Fetching all countries - page: 0, size: 10
+2023.08.19 20:19:41.277 [INFO] com.capstonelegal.common.controller.CountryController: Responding with 10 countries out of total 248 countries
+2023.08.19 20:19:45.779 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.08.19 20:19:45.785 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.08.19 20:19:45.827 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.08.19 20:22:51.862 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 14444 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 20:22:51.866 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 20:22:57.466 [INFO] com.capstonelegal.Main: Started Main in 6.019 seconds (JVM running for 6.842)
+2023.08.19 20:25:28.101 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: {organizationId}
+2023.08.19 20:25:28.112 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: {organizationId}
+2023.08.19 20:27:01.186 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:27:01.189 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:27:01.218 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.modelmapper.MappingException: ModelMapper mapping errors:
+
+1) Error mapping com.capstonelegal.organization.model.entities.Organization to com.capstonelegal.organization.model.dto.OrganizationDTO
+
+1 error] with root cause
+java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.checkReceiver(DirectMethodHandleAccessor.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.modelmapper.internal.PropertyInfoImpl$MethodAccessor.getValue(PropertyInfoImpl.java:101)
+	at org.modelmapper.internal.MappingEngineImpl.resolveSourceValue(MappingEngineImpl.java:197)
+	at org.modelmapper.internal.MappingEngineImpl.propertyMap(MappingEngineImpl.java:170)
+	at org.modelmapper.internal.MappingEngineImpl.typeMap(MappingEngineImpl.java:151)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:105)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:71)
+	at org.modelmapper.ModelMapper.mapInternal(ModelMapper.java:573)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:406)
+	at com.capstonelegal.organization.service.OrganizationService.convertToDto(OrganizationService.java:178)
+	at com.capstonelegal.organization.service.OrganizationService.viewOrganization(OrganizationService.java:158)
+	at com.capstonelegal.organization.service.OrganizationService$$FastClassBySpringCGLIB$$554ff023.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.organization.service.OrganizationService$$EnhancerBySpringCGLIB$$488ff31c.viewOrganization(<generated>)
+	at com.capstonelegal.organization.controller.OrganizationController.viewOrganization(OrganizationController.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.08.19 20:29:32.895 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 10776 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 20:29:32.897 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 20:29:38.525 [INFO] com.capstonelegal.Main: Started Main in 6.017 seconds (JVM running for 6.865)
+2023.08.19 20:29:42.644 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:29:42.655 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:29:42.693 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.modelmapper.MappingException: ModelMapper mapping errors:
+
+1) Error mapping com.capstonelegal.organization.model.entities.Organization to com.capstonelegal.organization.model.dto.OrganizationDTO
+
+1 error] with root cause
+java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.checkReceiver(DirectMethodHandleAccessor.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.modelmapper.internal.PropertyInfoImpl$MethodAccessor.getValue(PropertyInfoImpl.java:101)
+	at org.modelmapper.internal.MappingEngineImpl.resolveSourceValue(MappingEngineImpl.java:197)
+	at org.modelmapper.internal.MappingEngineImpl.propertyMap(MappingEngineImpl.java:170)
+	at org.modelmapper.internal.MappingEngineImpl.typeMap(MappingEngineImpl.java:151)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:105)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:71)
+	at org.modelmapper.ModelMapper.mapInternal(ModelMapper.java:573)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:406)
+	at com.capstonelegal.organization.service.OrganizationService.convertToDto(OrganizationService.java:178)
+	at com.capstonelegal.organization.service.OrganizationService.viewOrganization(OrganizationService.java:158)
+	at com.capstonelegal.organization.service.OrganizationService$$FastClassBySpringCGLIB$$554ff023.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.organization.service.OrganizationService$$EnhancerBySpringCGLIB$$ec1d5411.viewOrganization(<generated>)
+	at com.capstonelegal.organization.controller.OrganizationController.viewOrganization(OrganizationController.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.08.19 20:33:46.227 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 19908 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 20:33:46.229 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 20:33:51.526 [INFO] com.capstonelegal.Main: Started Main in 5.584 seconds (JVM running for 6.279)
+2023.08.19 20:33:54.859 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:33:54.867 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:33:54.901 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.modelmapper.MappingException: ModelMapper mapping errors:
+
+1) Error mapping com.capstonelegal.organization.model.entities.Organization to com.capstonelegal.organization.model.dto.OrganizationDTO
+
+1 error] with root cause
+java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.checkReceiver(DirectMethodHandleAccessor.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.modelmapper.internal.PropertyInfoImpl$MethodAccessor.getValue(PropertyInfoImpl.java:101)
+	at org.modelmapper.internal.MappingEngineImpl.resolveSourceValue(MappingEngineImpl.java:197)
+	at org.modelmapper.internal.MappingEngineImpl.propertyMap(MappingEngineImpl.java:170)
+	at org.modelmapper.internal.MappingEngineImpl.typeMap(MappingEngineImpl.java:151)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:105)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:71)
+	at org.modelmapper.ModelMapper.mapInternal(ModelMapper.java:573)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:406)
+	at com.capstonelegal.organization.service.OrganizationService.convertToDto(OrganizationService.java:179)
+	at com.capstonelegal.organization.service.OrganizationService.viewOrganization(OrganizationService.java:158)
+	at com.capstonelegal.organization.service.OrganizationService$$FastClassBySpringCGLIB$$554ff023.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.organization.service.OrganizationService$$EnhancerBySpringCGLIB$$66997da2.viewOrganization(<generated>)
+	at com.capstonelegal.organization.controller.OrganizationController.viewOrganization(OrganizationController.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.08.19 20:37:38.695 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 20164 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 20:37:38.697 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 20:37:43.652 [INFO] com.capstonelegal.Main: Started Main in 5.259 seconds (JVM running for 5.945)
+2023.08.19 20:37:47.727 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 20:37:47.739 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 21:04:25.827 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 22512 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 21:04:25.829 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 21:04:31.343 [INFO] com.capstonelegal.Main: Started Main in 5.876 seconds (JVM running for 6.62)
+2023.08.19 21:04:35.278 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 21:04:35.290 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.08.19 21:14:51.462 [INFO] com.capstonelegal.organization.controller.OrganizationController: Creating a new organization
+2023.08.19 21:14:51.464 [INFO] com.capstonelegal.organization.service.OrganizationService: Creating a new organization
+2023.08.19 21:15:12.992 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.08.19 21:15:12.995 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.08.19 21:15:13.037 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.08.19 21:19:12.562 [INFO] com.capstonelegal.organization.controller.OrganizationController: Updating organization with ID: 222381e7-fc82-43ba-a8e5-a1c7788185fb
+2023.08.19 21:19:12.565 [INFO] com.capstonelegal.organization.service.OrganizationService: Updating organization with ID: 222381e7-fc82-43ba-a8e5-a1c7788185fb
+2023.08.19 21:19:12.578 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.modelmapper.MappingException: ModelMapper mapping errors:
+
+1) Error mapping com.capstonelegal.organization.model.dto.OrganizationDTO to com.capstonelegal.organization.model.entities.Organization
+
+1 error] with root cause
+java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.checkReceiver(DirectMethodHandleAccessor.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.modelmapper.internal.PropertyInfoImpl$MethodMutator.setValue(PropertyInfoImpl.java:126)
+	at org.modelmapper.internal.MappingContextImpl.getParentDestination(MappingContextImpl.java:325)
+	at org.modelmapper.internal.MappingEngineImpl.setDestinationValue(MappingEngineImpl.java:230)
+	at org.modelmapper.internal.MappingEngineImpl.propertyMap(MappingEngineImpl.java:187)
+	at org.modelmapper.internal.MappingEngineImpl.typeMap(MappingEngineImpl.java:151)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:105)
+	at org.modelmapper.internal.MappingEngineImpl.map(MappingEngineImpl.java:71)
+	at org.modelmapper.ModelMapper.mapInternal(ModelMapper.java:573)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:447)
+	at com.capstonelegal.organization.service.OrganizationService.updateEntityFromDto(OrganizationService.java:216)
+	at com.capstonelegal.organization.service.OrganizationService.updateOrganization(OrganizationService.java:142)
+	at com.capstonelegal.organization.service.OrganizationService$$FastClassBySpringCGLIB$$554ff023.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.organization.service.OrganizationService$$EnhancerBySpringCGLIB$$66997da2.updateOrganization(<generated>)
+	at com.capstonelegal.organization.controller.OrganizationController.updateOrganization(OrganizationController.java:127)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.08.19 21:20:11.354 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 3212 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 21:20:11.357 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 21:20:16.501 [INFO] com.capstonelegal.Main: Started Main in 5.446 seconds (JVM running for 6.178)
+2023.08.19 22:15:55.088 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 15368 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 22:15:55.095 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 22:15:59.889 [INFO] com.capstonelegal.Main: Started Main in 5.101 seconds (JVM running for 5.895)
+2023.08.19 22:16:04.119 [INFO] com.capstonelegal.organization.controller.OrganizationController: Updating organization with ID: 222381e7-fc82-43ba-a8e5-a1c7788185fb
+2023.08.19 22:16:04.129 [INFO] com.capstonelegal.organization.service.OrganizationService: Updating organization with ID: 222381e7-fc82-43ba-a8e5-a1c7788185fb
+2023.08.19 22:18:41.018 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 12480 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 22:18:41.020 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 22:18:46.124 [INFO] com.capstonelegal.Main: Started Main in 5.396 seconds (JVM running for 6.067)
+2023.08.19 22:18:51.852 [INFO] com.capstonelegal.organization.controller.OrganizationController: Deleting organization with ID: 222381e7-fc82-43ba-a8e5-a1c7788185fb
+2023.08.19 22:18:51.865 [INFO] com.capstonelegal.organization.service.OrganizationService: Deleting organization with ID: 222381e7-fc82-43ba-a8e5-a1c7788185fb
+2023.08.19 22:19:05.050 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.08.19 22:19:05.052 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.08.19 22:19:05.091 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.08.19 22:51:27.566 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 21160 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 22:51:27.568 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 22:51:32.900 [INFO] com.capstonelegal.Main: Started Main in 5.634 seconds (JVM running for 6.361)
+2023.08.19 23:02:37.030 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 19612 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:02:37.032 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:02:41.927 [INFO] com.capstonelegal.Main: Started Main in 5.249 seconds (JVM running for 6.036)
+2023.08.19 23:04:58.288 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 14864 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:04:58.290 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:05:03.425 [INFO] com.capstonelegal.Main: Started Main in 5.448 seconds (JVM running for 6.128)
+2023.08.19 23:07:47.107 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 31736 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:07:47.109 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:10:40.930 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 22628 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:10:40.934 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:10:47.885 [INFO] com.capstonelegal.Main: Started Main in 7.49 seconds (JVM running for 8.513)
+2023.08.19 23:35:27.322 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 21692 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:35:27.324 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:35:32.682 [INFO] com.capstonelegal.Main: Started Main in 5.677 seconds (JVM running for 6.348)
+2023.08.19 23:43:14.137 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 27392 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:43:14.140 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:43:18.868 [INFO] com.capstonelegal.Main: Started Main in 5.04 seconds (JVM running for 5.802)
+2023.08.19 23:45:44.525 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 17984 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:45:44.528 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:45:49.372 [INFO] com.capstonelegal.Main: Started Main in 5.198 seconds (JVM running for 5.955)
+2023.08.19 23:49:44.996 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 17928 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:49:44.999 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:49:50.573 [INFO] com.capstonelegal.Main: Started Main in 6.002 seconds (JVM running for 6.76)
+2023.08.19 23:51:16.095 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 26496 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:51:16.098 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:51:24.429 [INFO] com.capstonelegal.Main: Started Main in 8.641 seconds (JVM running for 9.31)
+2023.08.19 23:51:37.806 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 28800 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:51:37.809 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:51:44.146 [INFO] com.capstonelegal.Main: Started Main in 6.841 seconds (JVM running for 7.839)
+2023.08.19 23:54:34.987 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 20160 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.19 23:54:34.989 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.19 23:54:40.198 [INFO] com.capstonelegal.Main: Started Main in 5.544 seconds (JVM running for 6.299)

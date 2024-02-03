@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" migrateIndexesAndConstraints="true" reUseTableSchema="true">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="adcc29d7-79ec-4f5d-ae17-66702565d7ef__capstonelegaldevdb_capstonelegalschema" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/com/capstonelegal/allentities" />
+  </component>
+</project>

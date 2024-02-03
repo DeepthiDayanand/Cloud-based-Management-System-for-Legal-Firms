@@ -1,0 +1,37 @@
+2023.08.20 07:31:13.187 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 5196 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 07:31:13.194 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 07:31:19.914 [INFO] com.capstonelegal.Main: Started Main in 7.046 seconds (JVM running for 7.82)
+2023.08.20 07:32:22.590 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 29520 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 07:32:22.593 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 07:32:27.972 [INFO] com.capstonelegal.Main: Started Main in 5.735 seconds (JVM running for 6.512)
+2023.08.20 07:32:56.651 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 26072 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 07:32:56.654 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 07:33:02.453 [INFO] com.capstonelegal.Main: Started Main in 6.126 seconds (JVM running for 6.846)
+2023.08.20 07:43:19.490 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 17908 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 07:43:19.494 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 07:43:26.386 [INFO] com.capstonelegal.Main: Started Main in 7.477 seconds (JVM running for 8.695)
+2023.08.20 07:58:05.842 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 29300 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 07:58:05.844 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 07:58:11.117 [INFO] com.capstonelegal.Main: Started Main in 5.58 seconds (JVM running for 6.264)
+2023.08.20 08:06:51.717 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 28220 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 08:06:51.719 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 08:06:57.295 [INFO] com.capstonelegal.Main: Started Main in 5.87 seconds (JVM running for 6.573)
+2023.08.20 08:10:41.497 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 29928 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 08:10:41.500 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 08:10:46.655 [INFO] com.capstonelegal.Main: Started Main in 5.478 seconds (JVM running for 6.214)
+2023.08.20 08:31:29.437 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 21428 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 08:31:29.439 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 08:31:34.582 [INFO] com.capstonelegal.Main: Started Main in 5.425 seconds (JVM running for 6.084)
+2023.08.20 08:31:40.916 [INFO] com.capstonelegal.common.controller.StateController: Request received to fetch states - country: null, state: null, page: 0, size: 10
+2023.08.20 08:31:40.932 [INFO] com.capstonelegal.common.service.StateService: Fetching paginated and optionally filtered states from the database
+2023.08.20 08:31:40.999 [INFO] com.capstonelegal.common.controller.StateController: Responding with 10 states out of total 37 states
+2023.08.20 08:33:15.821 [INFO] com.capstonelegal.common.controller.StateController: Request received to fetch states - country: India, state: Karnataka, page: 0, size: 10
+2023.08.20 08:33:15.823 [INFO] com.capstonelegal.common.service.StateService: Fetching paginated and optionally filtered states from the database
+2023.08.20 08:33:15.840 [INFO] com.capstonelegal.common.controller.StateController: Responding with 1 states out of total 1 states
+2023.08.20 08:37:19.140 [INFO] com.capstonelegal.common.controller.StateController: Fetching state with id: d3f6c971-3b23-472d-a09e-1ec8c4ef7d1f
+2023.08.20 08:37:19.140 [INFO] com.capstonelegal.common.service.StateService: Fetching state with ID d3f6c971-3b23-472d-a09e-1ec8c4ef7d1f
+2023.08.20 08:45:22.991 [INFO] com.capstonelegal.common.controller.StateController: Creating state for country id: 1d9ee505-1c21-45bd-a089-7abb0604a1f2
+2023.08.20 08:45:22.992 [INFO] com.capstonelegal.common.service.StateService: Creating a new state for country ID 1d9ee505-1c21-45bd-a089-7abb0604a1f2
+2023.08.20 08:54:52.090 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.1 on KKAVIRAPF28S8JC with PID 16860 (C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal\target\classes started by kkaviraj in C:\Kaviraj\Personal\ToRaghav\ToDeepthi\20230803\capstonelegal)
+2023.08.20 08:54:52.093 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.08.20 08:54:58.826 [INFO] com.capstonelegal.Main: Started Main in 7.121 seconds (JVM running for 7.861)

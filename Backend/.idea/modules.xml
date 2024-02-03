@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20230803_CapstoneLegal.iml" filepath="$PROJECT_DIR$/.idea/20230803_CapstoneLegal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capstonelegal/legal-management-service.iml" filepath="$PROJECT_DIR$/capstonelegal/legal-management-service.iml" />
+    </modules>
+  </component>
+</project>

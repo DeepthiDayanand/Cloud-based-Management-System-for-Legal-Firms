@@ -1,0 +1,638 @@
+2023.11.29 13:53:36.639 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:53:36.793 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:53:36.952 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:53:36.987 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:53:36.987 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:53:37.037 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:56:10.746 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: e76adee5-a5c9-47f7-a6e8-efac6935af5a
+2023.11.29 13:56:10.774 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: e76adee5-a5c9-47f7-a6e8-efac6935af5a
+2023.11.29 13:56:10.866 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:56:10.867 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:56:10.902 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:56:38.818 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 9fc17fbf-7268-4ce3-823b-6ce0b94a11a0
+2023.11.29 13:56:38.840 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 9fc17fbf-7268-4ce3-823b-6ce0b94a11a0
+2023.11.29 13:56:38.881 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:56:38.882 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:56:38.924 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:57:50.547 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 13:57:50.562 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 13:57:53.309 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:57:53.312 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:57:53.370 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:57:53.375 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:57:53.376 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:57:53.404 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:57:58.292 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:57:58.310 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:57:58.393 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:57:58.409 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:57:58.411 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:57:58.465 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:58:42.399 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:58:42.439 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:58:42.488 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:58:42.497 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:58:42.497 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:58:42.527 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 13:58:58.547 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 01571d5a-dd54-444d-9a4a-575a2e29fa7c
+2023.11.29 13:58:58.561 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 01571d5a-dd54-444d-9a4a-575a2e29fa7c
+2023.11.29 13:58:58.610 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 13:58:58.611 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 13:58:58.650 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:01:32.592 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:01:32.622 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:01:32.712 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:02:05.404 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:02:05.427 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:02:05.509 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:05:11.412 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:05:11.436 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:05:11.537 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:05:53.391 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:05:53.406 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:05:53.469 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:06:06.387 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:06:06.418 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:06:06.502 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:08:22.394 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:08:22.422 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:08:22.519 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:08:28.281 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:08:28.290 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:08:28.357 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:08:28.364 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:08:28.364 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:08:28.400 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:08:29.894 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 01571d5a-dd54-444d-9a4a-575a2e29fa7c
+2023.11.29 14:08:29.907 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 01571d5a-dd54-444d-9a4a-575a2e29fa7c
+2023.11.29 14:08:30.696 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 9fc17fbf-7268-4ce3-823b-6ce0b94a11a0
+2023.11.29 14:08:30.703 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 9fc17fbf-7268-4ce3-823b-6ce0b94a11a0
+2023.11.29 14:08:31.451 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: e76adee5-a5c9-47f7-a6e8-efac6935af5a
+2023.11.29 14:08:31.458 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: e76adee5-a5c9-47f7-a6e8-efac6935af5a
+2023.11.29 14:08:32.274 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 6c736de2-0de2-4dad-a38e-7e3f22c2fbac
+2023.11.29 14:08:32.277 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 6c736de2-0de2-4dad-a38e-7e3f22c2fbac
+2023.11.29 14:08:33.203 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.29 14:08:33.208 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: d3903123-710c-4331-be48-9496f3bf5ada
+2023.11.29 14:10:47.128 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 14:10:47.146 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 14:11:06.538 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:11:06.554 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:11:06.596 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:11:06.605 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:11:06.606 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:11:06.632 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:11:10.156 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:11:10.164 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:11:10.192 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:11:10.201 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:11:10.202 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:11:10.222 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:11:24.663 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:24.680 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:24.762 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:24.762 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:24.787 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:11:24.787 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:11:24.806 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:11:26.769 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:26.774 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:26.833 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:26.833 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 14:11:26.910 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:11:26.911 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:11:26.929 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:11:58.683 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 14:11:58.707 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 14:12:07.197 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:12:07.205 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:12:07.272 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:12:07.276 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:12:07.277 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:12:07.306 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:12:10.101 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:12:10.105 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:12:10.149 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:12:10.154 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:12:10.155 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:12:10.193 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:12:21.862 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:12:21.890 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:12:21.952 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:12:21.953 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:12:22.024 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:12:22.025 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:12:22.048 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:16:44.468 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:16:44.523 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:16:44.611 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:17:03.701 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:17:03.728 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:17:03.809 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:17:03.809 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:17:03.892 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:17:03.892 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:17:03.932 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:19:25.363 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:19:25.387 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:19:25.442 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:19:33.116 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:19:33.125 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:19:33.182 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:19:33.183 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:19:33.261 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:19:33.261 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:19:33.291 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:20:41.340 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:20:41.355 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:20:41.396 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:20:45.891 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:20:45.915 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:20:45.987 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:20:45.988 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:20:46.085 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:20:46.086 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:20:46.123 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:21:02.287 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:21:02.326 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:21:02.362 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:21:02.376 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:21:02.376 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:21:02.400 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:21:16.002 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:16.038 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:16.099 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:16.099 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:16.146 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:21:16.146 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:21:16.173 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:21:38.374 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:21:38.398 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:21:38.457 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:21:40.961 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:40.965 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:41.022 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:41.023 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:21:41.050 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:21:41.052 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:21:41.083 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:22:03.361 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:22:03.378 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:22:03.443 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:23:53.374 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:23:53.386 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:23:53.444 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:23:58.119 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:23:58.124 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:25:49.355 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:25:49.374 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:25:49.421 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:25:57.789 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:25:57.808 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:25:57.880 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:25:57.880 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 14:25:57.922 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:25:57.923 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:25:57.943 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:27:10.359 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:27:10.464 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:27:10.506 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:28:51.352 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:28:51.370 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:28:51.426 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:30:12.379 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:30:12.418 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:30:12.603 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:31:05.450 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:31:05.476 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:31:05.570 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:32:14.371 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:32:14.394 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:32:14.483 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:32:24.368 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:32:24.415 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:32:24.501 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:32:38.183 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:32:38.208 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:32:38.295 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:32:38.304 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:32:38.305 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:32:38.344 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:41:48.128 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:41:48.166 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:41:48.270 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:49:37.228 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 14:49:37.321 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 14:49:37.498 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.29 14:49:37.525 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 14:49:37.526 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 14:49:37.543 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.29 14:50:51.435 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 14:50:51.558 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 14:52:23.296 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 14:52:23.315 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 14:52:32.337 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:52:32.356 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:52:32.429 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:52:32.443 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:52:32.445 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:52:32.491 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:52:47.766 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:52:47.790 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:52:47.839 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:52:47.846 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:52:47.846 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:52:47.885 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 14:53:08.846 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 029c1e09-c91e-4335-a862-6aa20dff4a02
+2023.11.29 14:53:08.864 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 029c1e09-c91e-4335-a862-6aa20dff4a02
+2023.11.29 14:53:08.910 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 029c1e09-c91e-4335-a862-6aa20dff4a02
+2023.11.29 14:53:08.911 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 029c1e09-c91e-4335-a862-6aa20dff4a02
+2023.11.29 14:53:08.942 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 14:53:08.942 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 14:53:08.972 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 15:04:14.645 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 15:04:14.682 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 15:04:14.734 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.29 15:04:14.740 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 15:04:14.740 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 15:04:14.752 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.29 15:04:48.795 [INFO] com.capstonelegal.organization.controller.OrganizationController: Deleting organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.11.29 15:04:48.820 [INFO] com.capstonelegal.organization.service.OrganizationService: Deleting organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.11.29 15:04:48.904 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR: update or delete on table "organization" violates foreign key constraint "fk_department_organization_id" on table "department"
+  Detail: Key (organization_id)=(2e5ececb-ed13-4325-a9e3-5bd426ea449e) is still referenced from table "department".
+2023.11.29 15:04:48.936 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [fk_department_organization_id]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ERROR: update or delete on table "organization" violates foreign key constraint "fk_department_organization_id" on table "department"
+  Detail: Key (organization_id)=(2e5ececb-ed13-4325-a9e3-5bd426ea449e) is still referenced from table "department".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3958)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.capstonelegal.organization.service.OrganizationService$$EnhancerBySpringCGLIB$$72ea14d2.deleteOrganization(<generated>)
+	at com.capstonelegal.organization.controller.OrganizationController.deleteOrganization(OrganizationController.java:148)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.11.29 15:04:53.888 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 15:04:53.897 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.11.29 15:04:53.925 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 2 organization out of total 2
+2023.11.29 15:05:50.042 [INFO] com.capstonelegal.organization.controller.OrganizationController: Deleting organization with ID: c804b87e-6fe2-428e-8cb1-f4c3cc9c9fae
+2023.11.29 15:05:50.057 [INFO] com.capstonelegal.organization.service.OrganizationService: Deleting organization with ID: c804b87e-6fe2-428e-8cb1-f4c3cc9c9fae
+2023.11.29 15:06:06.008 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 15:06:06.031 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 15:06:06.076 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 15:06:14.903 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 15:06:14.917 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 15:06:14.955 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 15:06:14.962 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 15:06:14.963 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 15:06:14.982 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 15:12:04.782 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 15:12:04.797 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 15:12:04.905 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 15:12:04.912 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 15:12:04.913 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 15:12:04.988 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 16:34:08.216 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 16:34:08.352 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 20:01:10.799 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 20:01:10.846 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 20:01:15.374 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:01:15.385 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:01:15.524 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:01:15.536 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:01:15.536 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:01:15.604 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:01:43.707 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:01:43.750 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:01:43.923 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:01:43.929 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:01:43.929 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:01:43.987 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:02:01.721 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 20:02:01.738 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 20:02:01.839 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 20:02:01.839 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 20:02:01.920 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:02:01.921 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:02:01.964 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:02:21.291 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: ad36f725-7403-4e4f-ac7f-b34e1b356d68
+2023.11.29 20:02:21.301 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: ad36f725-7403-4e4f-ac7f-b34e1b356d68
+2023.11.29 20:02:21.359 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: ad36f725-7403-4e4f-ac7f-b34e1b356d68
+2023.11.29 20:02:21.360 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: ad36f725-7403-4e4f-ac7f-b34e1b356d68
+2023.11.29 20:02:21.398 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:02:21.398 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:02:21.433 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:02:31.072 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:02:31.093 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:02:31.153 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:02:31.160 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:02:31.161 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:02:31.206 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:18:46.873 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:18:46.915 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:18:46.995 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:18:47.009 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:18:47.009 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:18:47.048 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:18:57.852 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 20:18:57.869 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 20:18:57.936 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 20:18:57.944 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 20:18:57.945 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 20:18:57.969 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 20:20:58.231 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:20:58.251 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:20:58.297 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:20:58.308 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:20:58.309 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:20:58.344 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:21:10.270 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 20:21:10.278 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 223c9528-b395-4515-8853-4a57133721d9
+2023.11.29 20:21:11.508 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 029c1e09-c91e-4335-a862-6aa20dff4a02
+2023.11.29 20:21:11.513 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 029c1e09-c91e-4335-a862-6aa20dff4a02
+2023.11.29 20:21:14.592 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 20:21:14.596 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 2ccd95ba-d901-4c32-8c1d-86baa5615c18
+2023.11.29 20:22:18.439 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 20:22:18.472 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 20:22:28.105 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:22:28.131 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:22:28.193 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:22:28.200 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:22:28.200 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:22:28.226 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:22:55.666 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 20:22:55.680 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 20:22:55.723 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 20:22:55.732 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 20:22:55.732 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 20:22:55.757 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 20:25:03.712 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 20:25:03.749 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 20:25:33.559 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 20:25:33.585 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 20:26:47.972 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 20:26:47.995 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 20:26:52.831 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:26:52.852 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:26:52.911 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:26:52.921 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 20:26:52.921 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 20:26:52.944 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 20:26:55.306 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: ad36f725-7403-4e4f-ac7f-b34e1b356d68
+2023.11.29 20:26:55.312 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: ad36f725-7403-4e4f-ac7f-b34e1b356d68
+2023.11.29 21:01:33.238 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 21:01:33.285 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 21:01:33.381 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 21:01:33.401 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 21:01:33.402 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 21:01:33.417 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 21:01:47.124 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: d4544465-5500-4451-9262-14fc5d4b32c4
+2023.11.29 21:01:47.143 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: d4544465-5500-4451-9262-14fc5d4b32c4
+2023.11.29 21:01:47.222 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: d4544465-5500-4451-9262-14fc5d4b32c4
+2023.11.29 21:01:47.223 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: d4544465-5500-4451-9262-14fc5d4b32c4
+2023.11.29 21:01:47.274 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 21:01:47.274 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 21:01:47.282 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 21:01:57.497 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: a898f974-20eb-4b15-aef1-fbee9b0d6589
+2023.11.29 21:01:57.522 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: a898f974-20eb-4b15-aef1-fbee9b0d6589
+2023.11.29 21:01:57.598 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: a898f974-20eb-4b15-aef1-fbee9b0d6589
+2023.11.29 21:01:57.599 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: a898f974-20eb-4b15-aef1-fbee9b0d6589
+2023.11.29 21:01:57.634 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 21:01:57.636 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 21:01:57.658 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 21:02:04.221 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 21:02:04.242 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 21:02:04.281 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 21:02:04.281 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 21:02:04.315 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 21:02:04.315 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 21:02:04.342 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 21:20:01.918 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 21:20:01.970 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 21:20:02.047 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 21:20:02.064 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 21:20:02.064 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 21:20:02.077 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 21:32:27.944 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 21:32:27.971 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 21:32:28.050 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 21:32:28.064 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 21:32:28.064 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 21:32:28.077 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:01:05.727 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:01:05.809 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:01:05.916 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:01:05.944 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:01:05.944 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:01:05.956 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:01:38.777 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 22:01:38.839 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 22:01:48.477 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:01:48.493 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:01:48.528 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:01:48.536 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:01:48.537 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:01:48.553 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:01:56.733 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:01:56.754 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:01:56.808 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:01:56.817 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:01:56.817 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:01:56.834 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:12:27.909 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:12:27.948 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:12:28.014 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:12:28.036 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:12:28.037 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:12:28.047 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:13:27.289 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 22:13:27.321 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 22:13:31.683 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:13:31.691 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:13:31.721 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:13:31.724 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:13:31.725 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:13:31.747 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:14:18.571 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 684a3a6e-d5a0-41ac-aca3-111a156a84a6
+2023.11.29 22:14:18.587 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 684a3a6e-d5a0-41ac-aca3-111a156a84a6
+2023.11.29 22:15:00.646 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:15:00.668 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:15:00.697 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:15:00.704 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:15:00.705 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:15:00.724 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:15:27.175 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: f1c58438-033a-41ec-a2fa-4032a12f2ef8
+2023.11.29 22:15:27.194 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: f1c58438-033a-41ec-a2fa-4032a12f2ef8
+2023.11.29 22:15:27.248 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: f1c58438-033a-41ec-a2fa-4032a12f2ef8
+2023.11.29 22:15:27.249 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: f1c58438-033a-41ec-a2fa-4032a12f2ef8
+2023.11.29 22:15:27.274 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:15:27.275 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:15:27.307 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:16:53.174 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 22:16:53.223 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 22:23:05.283 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 22:23:05.310 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 22:23:09.736 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:23:09.741 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:23:09.797 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:23:09.802 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:23:09.802 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:23:09.832 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:23:56.888 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: da9fb2ad-c5c6-45ee-afde-2562b6f01680
+2023.11.29 22:23:56.910 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: da9fb2ad-c5c6-45ee-afde-2562b6f01680
+2023.11.29 22:24:27.673 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:24:27.687 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:24:27.717 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:24:27.724 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:24:27.724 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:24:27.739 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:24:53.026 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching details of a case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 22:24:53.036 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching details of case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 22:24:53.101 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Updating case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 22:24:53.101 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Updating case with ID: 1b3a91a8-714a-45b6-9d9c-8ab55d08edde
+2023.11.29 22:24:53.124 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:24:53.124 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:24:53.132 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:25:13.538 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:25:13.562 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:25:13.586 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:25:13.592 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:25:13.592 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:25:13.609 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:26:23.882 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 22:26:23.915 [INFO] com.capstonelegal.court.controller.CourtTypeController: Fetching all court types
+2023.11.29 22:26:40.619 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:26:40.630 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:26:40.690 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:26:40.700 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:26:40.701 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:26:40.721 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:31:39.808 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:31:39.828 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:31:39.877 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:31:39.882 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:31:39.883 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:31:39.892 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:32:08.255 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:32:08.288 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:32:08.315 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:32:08.320 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:32:08.320 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:32:08.333 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:32:27.359 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:32:27.373 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:32:27.404 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:32:27.407 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:32:27.408 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:32:27.432 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:32:30.699 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:32:30.707 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:32:30.745 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:32:30.749 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:32:30.749 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:32:30.763 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:32:36.296 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:32:36.308 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:32:36.327 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:32:36.336 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:32:36.336 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:32:36.355 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:35:34.746 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Creating a new case
+2023.11.29 22:35:34.775 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Creating a new case
+2023.11.29 22:35:36.830 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:35:36.833 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:35:36.861 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:35:36.866 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:35:36.866 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:35:36.891 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:36:05.972 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Deleting case with ID: 5819eedd-e465-4944-8849-9ce5c2bdc014
+2023.11.29 22:36:05.990 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Deleting case with ID: 5819eedd-e465-4944-8849-9ce5c2bdc014
+2023.11.29 22:36:52.487 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:36:52.505 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:36:52.528 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:36:52.533 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:36:52.533 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:36:52.544 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:38:16.550 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:38:16.569 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:38:16.589 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:38:16.597 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.29 22:38:16.597 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.29 22:38:16.629 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.29 22:41:03.519 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:41:03.534 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:41:03.563 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.29 22:41:03.568 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.29 22:41:03.568 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.29 22:41:03.589 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1

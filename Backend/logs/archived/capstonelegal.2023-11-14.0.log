@@ -1,0 +1,21 @@
+2023.11.14 00:44:15.357 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.14 00:44:15.488 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.11.14 00:44:15.721 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.14 13:41:56.420 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.11.14 13:41:56.452 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching details of organization with ID: 2e5ececb-ed13-4325-a9e3-5bd426ea449e
+2023.11.14 13:42:09.477 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.14 13:42:09.493 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 10
+2023.11.14 13:42:09.556 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.14 13:42:16.449 [INFO] com.capstonelegal.organization.controller.OrganizationController: Fetching organizations with filters - organizationName: null, countryName: null, stateName: null, districtName: null, cityName: null
+2023.11.14 13:42:16.466 [INFO] com.capstonelegal.organization.service.OrganizationService: Fetching Organizations with filters - organization name: null. country name: null, state name: null, district name: null, city name: null, page: 0, size: 20
+2023.11.14 13:42:16.491 [INFO] com.capstonelegal.organization.controller.OrganizationController: Returning 1 organization out of total 1
+2023.11.14 13:46:20.656 [INFO] com.capstonelegal.Main: Starting Main using Java 19.0.2 on Deep-Air with PID 43061 (/Users/deepthidayanand/Desktop/capstone-backend/capstonelegal/target/classes started by deepthidayanand in /Users/deepthidayanand/Desktop/capstone-backend)
+2023.11.14 13:46:20.658 [INFO] com.capstonelegal.Main: No active profile set, falling back to 1 default profile: "default"
+2023.11.14 13:46:24.141 [INFO] com.capstonelegal.Main: Started Main in 3.686 seconds (JVM running for 4.081)
+2023.11.14 13:46:31.119 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.14 13:46:31.151 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.14 13:46:31.195 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.14 17:05:41.799 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Fetching cases with filters - legalCaseTitle: null
+2023.11.14 17:05:41.857 [INFO] com.capstonelegal.legalcase.service.LegalCaseService: Fetching Cases with filters - case name: null
+2023.11.14 17:05:41.942 [INFO] com.capstonelegal.legalcase.controller.LegalCaseController: Returning legal cases
+2023.11.14 23:08:49.740 [INFO] com.capstonelegal.judge.controller.JudgeTypeController: Creating or updating judge type: com.capstonelegal.judge.model.entities.JudgeType@504a718b
