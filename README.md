@@ -1,4 +1,4 @@
-# Cloud-based-Management-System-for-Legal-Firms
+<img width="708" alt="projectModules" src="https://github.com/user-attachments/assets/dfd9c6da-80aa-4bbb-95cc-f98401fb7903"># Cloud-based-Management-System-for-Legal-Firms
 
 A fullstack web application for small scale legal firms deployed on AWS. 
 This repository contains the source code as well as the papers published as a part of my Capstone Project for my Computer Science and Engineering undergraduate degree at PES University.
@@ -26,3 +26,11 @@ Cloud-based-Management-System-for-Legal-Firms
 ├── logs
 
 ```
+
+##Project modules
+
+The main features of this project include microservices that any legal tech corporate company should encompass, security features for gaining user trust, and deploying all of it on the cloud platform as a Saas product for ease of maintenance and cost effective management are the features implemented within the scope of this project.
+
+<img width="708" alt="projectModules" src="https://github.com/user-attachments/assets/476096ce-742e-4e3b-ab34-a5f331951450">
+
+
