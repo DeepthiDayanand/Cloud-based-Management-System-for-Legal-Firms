@@ -36,10 +36,10 @@ The main features of this project include microservices that any legal tech corp
 ![Image augmentation](TeX-source/projectModules.png)
 
 
-## Setup
+## Project Setup
 
 
-## Docker Desktop 
+### Docker Desktop 
 
 Download Docker Desktop for your system from the [Docker website.](https://www.docker.com/products/docker-desktop/). 
 <br> 
@@ -47,7 +47,7 @@ To verify that Docker is working correctly, open a command prompt or terminal wi
 `docker run hello-world`
 If Docker is working correctly, you should see output indicating that the hello-world container has been downloaded and run successfully.
 
-## PostGres Setup
+### PostGres Setup
 
 Open Docker Desktop and make sure it is running.
 Open a PowerShell terminal or command prompt window and enter the following command to download the PostgreSQL image from Docker Hub:
@@ -58,7 +58,7 @@ Please note that postgres username, password and port number must be configured.
 After the image has been downloaded, enter the following command to start a container using the PostgreSQL image:
 `docker run --name capstonelegaldb`
 
-## Microservice Setup
+### Microservice Setup
 
 Download the capstonelegalJM.zip file and extract it to any folder.
 Ensure, Java 11+ is installed in your system
@@ -69,10 +69,10 @@ For example:
 Deploy and the image run in Docker Desktop:
 `docker-compose up`
 
-## Postman Setup
+### Postman Setup
 Download and install [Postman Client](https://www.postman.com/downloads/) to test the APIs
 
-## Frontend Setup
+### Frontend Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -98,5 +98,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### AWS Setup 
 
+To get started, create an AWS account (for project purposes, a free trial will suffice).
+Setup Amazon EC2 instances for the application. 
+Upload the application.
+Set up the required RDS and QLDB connections.
+
+For more information about AWS and it's services, refer to [Deployments on an EC2/On-Premises Compute Platform](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-steps-server.html), [Amazon RDS](https://docs.aws.amazon.com/rds/?nc2=h_ql_doc_rds) and [Amazon QLDB.](https://docs.aws.amazon.com/qldb/?icmpid=docs_homepage_databases)
 
