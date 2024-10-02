@@ -38,7 +38,40 @@ The main features of this project include microservices that any legal tech corp
 
 ## Setup
 
-## Frontend
+
+## Docker Desktop 
+
+Download Docker Desktop for your system from the [Docker website.](https://www.docker.com/products/docker-desktop/).
+To verify that Docker is working correctly, open a command prompt or terminal window and enter the following command:
+`docker run hello-world`
+If Docker is working correctly, you should see output indicating that the hello-world container has been downloaded and run successfully.
+
+## PostGres Setup
+
+Open Docker Desktop and make sure it is running.
+Open a PowerShell terminal or command prompt window and enter the following command to download the PostgreSQL image from Docker Hub:
+`docker pull postgres`
+
+Please note that postgres username, password and port number must be configured.
+
+After the image has been downloaded, enter the following command to start a container using the PostgreSQL image:
+`docker run --name capstonelegaldb`
+
+## Microservice Setup
+
+Download the capstonelegalJM.zip file and extract it to any folder.
+Ensure, Java 11+ is installed in your system
+Import the project to your IntelliJ idea to build and create a jar file for the project using Maven.
+Open a PowerShell terminal or command prompt window and enter the following command to build the services. 
+For example: 
+`docker build -t judge-management-service .`
+Deploy and the image run in Docker Desktop:
+`docker-compose up`
+
+## Postman Setup
+Download and install postman client to test the APIs
+
+## Frontend Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
