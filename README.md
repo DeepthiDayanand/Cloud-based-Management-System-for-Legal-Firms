@@ -7,3 +7,19 @@ The literature survey for this project can be found [here](https://github.com/De
 <br>
 The Final paper for this project can be found [here](https://github.com/DeepthiDayanand/Cloud-based-Management-System-for-Legal-Firms/blob/main/publications/Secure%20Cloud%20based%20Management%20System%20for%20Legal%20Firms.pdf).
 
+## Directory Structure
+
+```
+Cloud-based-Management-System-for-Legal-Firms
+├── frontend
+    ├── src
+    └── App.js
+├── backend
+    ├── capstonelegal
+        ├── src
+            ├── main
+                ├── java/com/capstonelegal
+                └── Main.java
+├── logs
+
+```
