@@ -33,7 +33,7 @@ Cloud-based-Management-System-for-Legal-Firms
 
 The main features of this project include microservices that any legal tech corporate company should encompass, security features for gaining user trust, and deploying all of it on the cloud platform as a Saas product for ease of maintenance and cost effective management are the features implemented within the scope of this project.
 
-![Image augmentation](TeX-source/projectModules.png)
+![Image augmentation](.idea/projectModules.png)
 
 
 ## Project Setup
