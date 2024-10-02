@@ -3,7 +3,7 @@
 A fullstack web application for small scale legal firms deployed on AWS. 
 This repository contains the source code as well as the papers published as a part of my Capstone Project for my Computer Science and Engineering undergraduate degree at PES University.
 
-<li> The literature survey for this project was presented at the Second International Conference on Advances in Data-driven Computing and Intelligent Systems (ADCIS 2023) and can be found [here] (https://doi.org/10.56155/978-81-955020-2-8-54).
+<li> The literature survey for this project was presented at the Second International Conference on Advances in Data-driven Computing and Intelligent Systems (ADCIS 2023) [H Shafeeq Ahmed](https://orcid.org/0000-0003-1671-8474). and can be found [here] (https://doi.org/10.56155/978-81-955020-2-8-54).
 </li>
 
 <li> The Final paper for this project was presented at the Fifth International Conference on Computing and Network Communications (CoCoNET 2023) and can be found [here] (https://link.springer.com/book/9789819745395).
