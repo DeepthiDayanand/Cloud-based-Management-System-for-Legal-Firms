@@ -11,15 +11,18 @@ The Final paper for this project can be found [here](https://github.com/DeepthiD
 
 ```
 Cloud-based-Management-System-for-Legal-Firms
+
 ├── frontend
     ├── src
     └── App.js
+
 ├── backend
     ├── capstonelegal
         ├── src
             ├── main
                 ├── java/com/capstonelegal
                 └── Main.java
+
 ├── logs
 
 ```
