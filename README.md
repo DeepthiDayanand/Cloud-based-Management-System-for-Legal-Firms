@@ -41,7 +41,8 @@ The main features of this project include microservices that any legal tech corp
 
 ## Docker Desktop 
 
-Download Docker Desktop for your system from the [Docker website.](https://www.docker.com/products/docker-desktop/).
+Download Docker Desktop for your system from the [Docker website.](https://www.docker.com/products/docker-desktop/). 
+<br> 
 To verify that Docker is working correctly, open a command prompt or terminal window and enter the following command:
 `docker run hello-world`
 If Docker is working correctly, you should see output indicating that the hello-world container has been downloaded and run successfully.
