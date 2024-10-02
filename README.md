@@ -36,9 +36,9 @@ The main features of this project include microservices that any legal tech corp
 ![Image augmentation](TeX-source/projectModules.png)
 
 
-##Setup
+## Setup
 
-#Frontend
+# Frontend
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
