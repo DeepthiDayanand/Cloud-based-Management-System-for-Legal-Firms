@@ -70,7 +70,7 @@ Deploy and the image run in Docker Desktop:
 `docker-compose up`
 
 ## Postman Setup
-Download and install postman client to test the APIs
+Download and install [Postman Client](https://www.postman.com/downloads/) to test the APIs
 
 ## Frontend Setup
 
